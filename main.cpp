@@ -16,9 +16,9 @@ cout <<dice2.total() <<endl;
 cout <<dice3.total() <<endl;
 cout <<dice6.total() <<endl;
 
-cout <<dice2.str() << "" << dice2.total() <<endl; 
-cout <<dice3.str() << "" << dice2.total() <<endl; 
-cout <<dice6.str() << "" << dice2.total() <<endl; 
+cout <<dice2.str() << " " << dice2.total() <<endl; 
+cout <<dice3.str() << " " << dice3.total() <<endl; 
+cout <<dice6.str() << " " << dice6.total() <<endl; 
 
 for (int i=0; i<6; i++){
   dice6.roll(i);
